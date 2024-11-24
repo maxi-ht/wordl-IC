@@ -1,0 +1,19 @@
+{
+  "canisters": {
+    "wordlic2_frontend": {
+      "frontend": {
+        "entrypoint": "frontend/index.html"
+      },
+      "source": ["src/wordlic2_frontend"],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
